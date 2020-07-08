@@ -13,7 +13,7 @@ import re
 #Write your api key in api_key = ''
 import newsapi
 from newsapi.newsapi_client import NewsApiClient
-newsapi = NewsApiClient(api_key='4f88b219700a460b9ffc9090841034ad')
+newsapi = NewsApiClient(api_key='##################')
 top_headlines = newsapi.get_top_headlines(language='en',country='in')
 
 #For specific category news article uncomment this
